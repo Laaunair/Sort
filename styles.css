@@ -1,0 +1,246 @@
+:root {
+     --dark: #404A53;
+     --cinnabar: #B32B27;
+     --white: #FFFFFF;
+     --nblue: #4075A0;
+     --lblue: #5FB2F5;
+}
+@font-face {
+    font-family: forgotten_futurist;
+    src: url(forgotten\ futurist\ rg.ttf);
+ }
+
+ * {
+      box-sizing: border-box;
+      position: center;
+      margin: 0px;
+      padding: 0;
+ }
+
+ body {
+      font-family: forgotten_futurist, ubuntu;
+ }
+
+a { color: white;}
+a :visited {  color: var(--lblue); }
+a :focus {  color: var(--nblue); }
+/* tekst */
+
+h1 {
+     display: inline;
+     color: var(--dark);
+     font-size: 41px;
+     font-weight: 400;
+     position: relative;
+     top: -10px;
+     margin-left: 3px;
+}
+.redlogo {
+          color: var(--cinnabar);
+}
+h2 {
+     font-size: 26px;
+     font-weight: 400;
+}
+p {
+     font-family: ubuntu;
+     font-size: 16px;
+     font-weight: 400;
+}
+small {
+     font-family: ubuntu;
+     font-size: 14px;
+     font-weight: 400;
+}
+.wrapper{
+
+}
+
+/* nawigacja */
+.logo-2{
+     position: fixed;
+     bottom: -3px;
+     width: 360px;
+     height: 66px;
+     left: 0px;
+     background-color: #FFFFFF;
+     box-shadow: 0px -5px 4px rgba(0, 0, 0, 0.25);
+     overflow: hidden;
+     z-index: 1;
+}
+
+.slideup {
+     position: fixed;
+     bottom: 0px;
+     width: 360px;
+     height: 446px;
+     z-index:1;
+
+     display: none;
+}
+
+.slideup.active{
+     display: inline;
+}
+
+.menuslide{
+     position: fixed;
+     bottom: 0px;
+     overflow: hidden;
+     transition: 400ms;
+}
+.logo-3{
+     position: fixed;
+     bottom: 0px;
+     z-index: 2;
+}
+.m-menu-items{
+     position: fixed;
+     padding: 41px;
+     margin: auto;
+     width: 360px;
+     height: 446px;
+}
+ul {
+     list-style-type: none;
+     text-align: center;
+}
+.list-items {
+     font-size: 26px;
+     text-decoration: none;
+     line-height: 77px;
+}
+/* układ */
+div {
+     position: relative;
+}
+.logo-1 {
+     margin-top: 10px;
+     margin-left: 10px;
+}
+.I_img {
+     position: absolute;
+     width: 220.07px;
+     height: 137.62px;
+     left: 70px;
+     top: 275px;
+}
+.II_img {
+     position: absolute;
+     width: 360px;
+     height: 531px;
+     left: 0px;
+     top: 463px;     
+}
+.III_img {
+     position: absolute;
+     height: 257.88px;
+     left: 0px;
+     top: 994px;
+}
+#icon {
+     position: absolute;
+     width: 66px;
+     height: 66px;
+     left: 141px;
+     top: 1332px;
+}
+.plan-wrapper {
+     display: flex;
+     flex-wrap: nowrap;
+     overflow-x: auto;
+     width: 360px;
+     position: absolute;
+     width: 360px;
+     height:460px ;
+     left: 0px;
+     top: 1398px;
+     -webkit-overflow-scrolling: touch;
+}
+.card {
+     flex: 0px 0px auto;
+}
+.buy {
+     background-color: #FFFFFF;
+	border: 3px solid #B32B27;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     color: var(--dark);
+     cursor: pointer;
+     font-family: forgotten_futurist;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 26px;
+     line-height: 31px;
+     display: flex;
+     text-align: center;
+     margin: auto;
+     padding: 7px 50px;
+     padding-bottom: 7px;
+     position: relative;
+     bottom: 110px;
+}
+.buy:focus {
+     background-color: var(--cinnabar);
+     color: var(--white);
+     border: 3px solid #B32B27;
+     outline: none;
+}
+.V_img {
+     position: absolute;
+     width: 360px;
+     height: 120px;
+     left: 0px;
+     top: 1913px;
+     margin-bottom: 60px;
+}
+.I_txt {
+     position: absolute;
+     width: 340px;
+     height: 76px;
+     left: 10px;
+     top: 118px;
+     text-align: right;
+     color:var(--dark);
+}
+.II_txt {
+     position: absolute;
+     width: 288px;
+     height: 76px;
+     left: 40px;
+     top: 838px;
+     color:var(--white);
+     text-align: center;
+}
+.III_txt {
+     position: absolute;
+     width: 133px;
+     height: 41px;
+     left: 3px;
+     top: 1094px;
+     color: var(--dark);
+}
+.IV_txt {
+     position: absolute;
+     width: 186.32px;
+     height: 33.32px;
+     left: 87px;
+     top: 1314px;
+     color: var(--nblue);
+}
+.Va_txt {
+     position: absolute;
+     width: 186px;
+     height: 31px;
+     left: 70px;
+     top: 1932px;
+     color:var(--white);
+}
+.Vb_txt {
+     position: absolute;
+     width: 169px;
+     height: 32px;
+     left: 70px;
+     top: 1981px;
+     color:var(--white);
+}
